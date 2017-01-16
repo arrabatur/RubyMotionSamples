@@ -7,6 +7,7 @@ class AppDelegate
     @window.rootViewController = UINavigationController.alloc.initWithRootViewController(tabbar)
     @window.rootViewController.wantsFullScreenLayout = true
     @window.makeKeyAndVisible
+    
     true
   end
 
